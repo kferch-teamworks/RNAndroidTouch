@@ -29,6 +29,19 @@
         "projectId": "735831a9-0afd-4b0f-9114-729846154004"
       }
     },
-    "owner": "teamworks"
+    "owner": "teamworks",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "newArchEnabled": true
+          },
+          "android": {
+            "newArchEnabled": true
+          }
+        }
+      ]
+    ]
   }
 }

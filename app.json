@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "RNAndroidTouch",
-    "slug": "RNAndroidTouch",
+    "slug": "android-touchable",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.teamworks.androidtouchable"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "735831a9-0afd-4b0f-9114-729846154004"
+      }
+    },
+    "owner": "teamworks"
   }
 }

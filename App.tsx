@@ -11,7 +11,7 @@ export default function App() {
   return (
     <View style={{ flex: 1, gap: 16, padding: 16, marginTop: 32 }}>
       <View style={{ gap: 16, marginTop: 32 }}>
-        <NativeText style={{ fontWeight: "600"}}>React Native NativeTextInput and Button</NativeText>
+        <NativeText style={{ fontWeight: "bold"}}>React Native NativeTextInput and Button</NativeText>
         <NativeTextInput style={{ borderWidth: 1, height: 40, paddingLeft: 8 }} placeholder="Type something..." onChangeText={newText => setInputNativeText(newText)}/>
         <NativeText>input text is: {inputNativeText}</NativeText>
         <NativeButton title="Press me" onPress={() => setNativeButtonPressCount(nativeButtonPressCount + 1)} />
